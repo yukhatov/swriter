@@ -1,0 +1,10 @@
+package: bitbucket.org/tapgerine/statistics_writer
+import:
+- package: github.com/davecgh/go-spew/spew
+- package: gopkg.in/Shopify/sarama.v1
+- package: github.com/lib/pq
+- package: github.com/jinzhu/gorm
+- package: bitbucket.org/tapgerine/pmp/control/models
+  repo: git@bitbucket.org:tapgerine/pmp
+- package: github.com/roistat/go-clickhouse
+- package: github.com/patrickmn/go-cache
